@@ -1,0 +1,318 @@
+cor1 {
+  background-color: lightblue;
+}
+.cabecalho{
+     width:150px;
+   
+    }
+.preencher{
+
+ padding-left: 10px!important;
+   height:25px;
+   width:150px!important;
+   font-weight: 500;
+}
+
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    background-color:white;
+}
+tr.cor1 {
+  background-color: lightblue;
+}
+table, th, td {
+  margin-left: 0;
+  padding-left: 0;
+  white-space: pre-line;
+  border-collapse: collapse; 
+
+  
+}
+tbody {
+  
+  padding-left: 0;
+  
+}
+.tabela{
+    padding-left: 0;
+
+    width: 300px;
+}
+
+     .menu {
+      display: flex;
+      background-color: yellow;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-bottom: 0;
+    }
+    
+     .blue-div {
+      background-color: white;
+      height: 20px;
+      margin: 0;
+      padding:20px;
+    }
+
+    /* estilos dos botões */
+    .menu button {
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+      margin-right: 10px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    /* estilos do botão ativo */
+    .menu button.active {
+      background-color: white;
+      border-bottom: 2px solid black;
+    }
+    
+    .conteudo_intervento{
+        width: 300px;
+        padding-top:0px;
+        padding-left:20px;
+    }
+
+    /* estilos do conteúdo */
+    .conteudo {
+        
+      padding: 20px;
+      
+      border-top: none;
+      border-radius: 0 5px 5px 5px;
+    }
+
+    /* esconde o conteúdo inativo */
+    .conteudo:not(.ativo) {
+      display: none;
+    }
+    /* Desabilita o zoom em dispositivos móveis */
+@media (max-width: 767px) {
+  /* Desabilita o zoom em dispositivos com largura máxima de 767px */
+  html, body {
+
+    touch-action: pan-x pan-y; /* Desabilita a função de zoom */
+  }
+}
+
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; /* alterar para a cor desejada */
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+
+    /* estilos para dispositivos móveis */
+    @media (max-width: 768px) {
+      .menu {
+        flex-wrap: wrap;
+        background-color: yellow;
+        padding: 0;
+        margin: 0;
+        
+      }
+     /* estilos dos botões */
+    .menu button {
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    /* estilos do botão ativo */
+    .menu button.active {
+      background-color: white;
+      border-bottom: 2px solid black;
+    }
+      .conteudo {
+        border-radius: 0;
+   
+        margin-top: -1px;
+      }
+    }
+
+
+body{
+     font-family: 'Open Sans', sans-serif;
+    margin:0;
+    background-color:white;
+}
+table, th, td {
+  margin-left: 0;
+  padding-left: 0;
+  white-space: pre-line;
+  height:25px;
+  
+  
+}
+tbody {
+  
+  padding-left: 0;
+  
+}
+.tabela{
+    padding-left: 0;
+   
+    width: 300px;
+}
+.select{
+    width: 150px;
+}
+.100-241{
+    width: 150px;
+}
+.input{
+    width: 145px;
+}
+
+ .radio-label {
+    font-size: 8px;
+  }
+
+.lista-os{
+    margin-left:5px;
+}
+
+.cor1{
+    height:25px;
+    width: 150px;
+
+}
+
+.preencher{
+   height:25px;
+   width:150px;
+   font-weight: 500;
+}  
+
+     .menu {
+      display: flex;
+      background-color: yellow;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-bottom: 0;
+    }
+    
+     .blue-div {
+      background-color: white;
+      height: 20px;
+      margin: 0;
+      padding:20px;
+    }
+
+    /* estilos dos botões */
+    .menu button {
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+      margin-right: 10px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    /* estilos do botão ativo */
+    .menu button.active {
+      background-color: white;
+      border-bottom: 2px solid black;
+    }
+    
+    .conteudo_intervento{
+        padding-top:0px;
+        padding-left:10px;
+    }
+
+    /* estilos do conteúdo */
+    .conteudo {
+      padding: 20px;
+      
+      border-top: none;
+      border-radius: 0 5px 5px 5px;
+    }
+
+    /* esconde o conteúdo inativo */
+    .conteudo:not(.ativo) {
+      display: none;
+    }
+
+
+    /* estilos para dispositivos móveis */
+    @media (max-width: 768px) {
+      .menu {
+        flex-wrap: wrap;
+        background-color: yellow;
+        padding: 0;
+        margin: 0;
+        
+      }
+     /* estilos dos botões */
+    .menu button {
+      border: none;
+      background-color: inherit;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+
+    /* estilos do botão ativo */
+    .menu button.active {
+      background-color: white;
+      border-bottom: 2px solid black;
+    }
+      .conteudo {
+        border-radius: 0;
+        margin-top: -1px;
+      }
+    }
+    
+/*------------------------------------*/
+
+
+.link-escondido {
+ 
+  color: #000; /* definir cor do texto para o mesmo da tabela */
+  color: black; /* Altera a cor do texto para preto */
+  text-decoration: none; /* Remove o sublinhado */
+  cursor: pointer; /* Muda o cursor do mouse para "mão" ao passar sobre o link */
+}
+/*------------------------------------*/
+servizi_aperti{
+    width:300px;
+    margin-left:10px;
+}
+footer {
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  line-height: 50px;
+}
